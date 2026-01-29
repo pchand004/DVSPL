@@ -29,9 +29,10 @@ fmin =
 
    21
 
+ 
 
-fmax =
+## Task 1.4 Display the right half of the image. Capture it for your logbook.
+### Command:
 
-  uint8
-
-   255
+```matlab
+imshow(f(:, floor(end/2):end))
